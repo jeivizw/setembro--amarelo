@@ -21,10 +21,11 @@ body {
     margin: 0 auto;
     border-radius: 15px;
     box-shadow: 0 3px 3px 3px ;
+    display: flex;
  }
  p{
     margin-bottom: 8%;
-    font-size: 30px;
+    font-size: x-large;
     text-align: center;
  }
   .container{
@@ -70,3 +71,41 @@ body {
             padding: unset;
             background-color: unset;
         }
+
+        .gira-float {
+            position: absolute;
+            top: 78% fixed;
+            right: 7%;
+            width: 9%;
+            height: auto;
+            z-index: 0;
+
+        }
+        .gira-float2 {
+           position: absolute;
+            top: 78% fixed;
+            right: 60%;
+            width: 9%;
+            height: auto;
+            z-index: 0;
+
+        }
+
+        .gira-float3 {
+           position: absolute;
+            top: 78% fixed;
+            right: 35%;
+            width: 11%;
+            height: auto;
+            z-index: 0;
+            display: inline-block;
+
+        }
+
+        #div-menor{
+            width: 20%;
+            margin:unset;
+            margin-left: 25%;
+        }
+
+        
